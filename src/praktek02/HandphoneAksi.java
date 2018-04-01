@@ -10,5 +10,11 @@ public class HandphoneAksi {
         r1.CetakInfo();
         System.out.println("total = "+r1.hitungtotal());
          r1.cetaktotal();
+         
+          handphone r2 = new handphone();
+        r2.CetakInfo();
+        
+        handphone r3 = new handphone(2500000,6);
+        r3.CetakInfo();
     }
 }

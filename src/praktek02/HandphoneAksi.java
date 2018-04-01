@@ -9,5 +9,6 @@ public class HandphoneAksi {
         
         r1.CetakInfo();
         System.out.println("total = "+r1.hitungtotal());
+         r1.cetaktotal();
     }
 }

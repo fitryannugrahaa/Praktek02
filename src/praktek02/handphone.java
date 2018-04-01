@@ -10,4 +10,9 @@ public class handphone {
         System.out.println("jumlah_handpone     :"+jumlah_handphone);
         System.out.println("=============================");
         }
+    int hitungtotal(){
+        int total;
+        total=harga_handphone*jumlah_handphone;
+        return total;
     }
+}   

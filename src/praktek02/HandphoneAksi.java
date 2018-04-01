@@ -6,5 +6,7 @@ public class HandphoneAksi {
 
         r1.harga_handphone = 4000000;
         r1.jumlah_handphone = 2;
+        
+        r1.CetakInfo();
     }
 }

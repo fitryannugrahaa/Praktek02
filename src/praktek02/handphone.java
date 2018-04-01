@@ -4,6 +4,11 @@ public class handphone {
     int harga_handphone;
     int jumlah_handphone;
 
+    public handphone() {
+        harga_handphone=2000000;
+        jumlah_handphone=4;
+    }
+
     void CetakInfo () {
         System.out.println("=============================");
         System.out.println("harga_handphone      :"+harga_handphone);
@@ -15,4 +20,7 @@ public class handphone {
         total=harga_handphone*jumlah_handphone;
         return total;
     }
+    void cetaktotal(){
+        System.out.println("Totalnya adalah: "+hitungtotal());
+     }
 }   
